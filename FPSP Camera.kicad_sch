@@ -7697,7 +7697,7 @@
 		)
 		(uuid "16fc1145-5c31-44aa-94be-f67c90f1f290")
 	)
-	(text "12MHz Crystal"
+	(text "12MHz Mems"
 		(exclude_from_sim no)
 		(at 35.56 78.74 0)
 		(effects
@@ -8261,6 +8261,10 @@
 		(uuid "2b7af2ef-76f4-4e68-9c9f-32e5c04d8f54")
 	)
 	(no_connect
+		(at 261.62 193.04)
+		(uuid "2f3f182a-3441-45a4-822c-ee6de5cf93f8")
+	)
+	(no_connect
 		(at 138.43 149.86)
 		(uuid "463154a7-5d73-4ae9-8460-396fa6a13077")
 	)
@@ -8295,10 +8299,6 @@
 	(no_connect
 		(at 138.43 142.24)
 		(uuid "afbba3cd-e693-454f-995f-2a30f74818fc")
-	)
-	(no_connect
-		(at 262.89 187.96)
-		(uuid "b53c4ab6-2ba2-4ddc-8258-c165e3167239")
 	)
 	(no_connect
 		(at 344.17 223.52)
@@ -10814,6 +10814,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 193.04) (xy 265.43 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3613b97-c69e-472f-8029-ca3a9fec8c95")
+	)
+	(wire
+		(pts
 			(xy 254 101.6) (xy 265.43 101.6)
 		)
 		(stroke
@@ -11374,6 +11384,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 187.96) (xy 265.43 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cebaa102-c0b2-48a5-9308-865e5957b794")
+	)
+	(wire
+		(pts
 			(xy 179.07 43.18) (xy 179.07 44.45)
 		)
 		(stroke
@@ -11381,16 +11401,6 @@
 			(type default)
 		)
 		(uuid "cf1bf6e7-48ef-4312-a2e1-546afe3dbe99")
-	)
-	(wire
-		(pts
-			(xy 265.43 193.04) (xy 251.46 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0ea39ba-1bbf-4858-a828-52ea6606ae73")
 	)
 	(wire
 		(pts
@@ -11611,16 +11621,6 @@
 			(type default)
 		)
 		(uuid "e16a242d-d97c-4982-a963-466d4bc87e5d")
-	)
-	(wire
-		(pts
-			(xy 262.89 187.96) (xy 265.43 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e286e8e6-3260-4da2-8559-1e8f1f17c771")
 	)
 	(wire
 		(pts
@@ -12132,7 +12132,7 @@
 		)
 		(uuid "24724dcb-40dc-4c16-bcd2-19bcb7a02995")
 	)
-	(label "XOUT"
+	(label "XIN"
 		(at 77.47 96.52 180)
 		(effects
 			(font
@@ -12172,8 +12172,8 @@
 		)
 		(uuid "338693c1-38eb-4976-af65-92f6d2849689")
 	)
-	(label "XOUT"
-		(at 251.46 193.04 0)
+	(label "XIN"
+		(at 252.73 187.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21358,7 +21358,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ABM8-272-T3"
+		(property "Value" "SiT2001B"
 			(at 39.37 83.82 90)
 			(effects
 				(font
