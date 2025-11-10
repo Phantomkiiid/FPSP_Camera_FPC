@@ -612,6 +612,22 @@
     [
       "b8279e3f-7ea4-46f5-abf2-a9173e16562f",
       "Root"
+    ],
+    [
+      "172436b5-7623-47a5-a8ea-c5a45f9f12a8",
+      "Power"
+    ],
+    [
+      "1515f097-b210-49ac-8180-3bf3a13b4fb2",
+      "IOs"
+    ],
+    [
+      "b2a4a92a-4d0c-404e-bdbd-0a3181455e07",
+      "MCU"
+    ],
+    [
+      "fe27d215-4a03-48dc-b9d9-ef5c7fd8f22c",
+      "IMU"
     ]
   ],
   "text_variables": {}
