@@ -4,7 +4,9 @@
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
-    "hidden_nets": [],
+    "hidden_nets": [
+      "GND"
+    ],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
@@ -50,7 +52,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
+    "visible_layers": "00000000_00000000_00aaaa82_aaaaaaff",
     "zone_display_mode": 0
   },
   "git": {
@@ -73,6 +75,8 @@
       false,
       false,
       false,
+      false,
+      false,
       false
     ],
     "col_order": [
@@ -85,7 +89,9 @@
       6,
       7,
       8,
-      9
+      9,
+      10,
+      11
     ],
     "col_widths": [
       210,
@@ -96,6 +102,8 @@
       123,
       123,
       75,
+      123,
+      123,
       123,
       123
     ],
