@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/custom_fp/OV5640_FPC/Library.pretty")(options "")(descr ""))
+)
