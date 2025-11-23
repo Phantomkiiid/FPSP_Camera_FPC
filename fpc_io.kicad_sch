@@ -3843,6 +3843,18 @@
 		(uuid "ab3c2b55-1a5f-4051-844e-d7dff84768a3")
 	)
 	(junction
+		(at 81.28 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "01d1ebdf-7521-4301-93eb-a99273705e6e")
+	)
+	(junction
+		(at 81.28 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0843670f-6836-47e3-bd06-5e90a3d2c3bb")
+	)
+	(junction
 		(at 49.53 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3853,12 +3865,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1921119f-5913-457b-8061-bd0fddff9c1a")
-	)
-	(junction
-		(at 81.28 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "24af3fcb-dde1-4f04-a12a-198e06acaff5")
 	)
 	(junction
 		(at 198.12 45.72)
@@ -3891,16 +3897,10 @@
 		(uuid "65b2d788-ae87-455d-82ed-e621758de6a5")
 	)
 	(junction
-		(at 81.28 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "711b4b05-12cb-4f9b-bee9-436cabbddf67")
-	)
-	(junction
 		(at 81.28 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "76ee852e-8d3d-4154-907a-305ab2d12f67")
+		(uuid "71696a96-cb91-470b-92e2-c93a5310d2b5")
 	)
 	(junction
 		(at 162.56 83.82)
@@ -3921,10 +3921,10 @@
 		(uuid "c20c3a29-9266-42d7-b26d-5634d4df7470")
 	)
 	(junction
-		(at 81.28 55.88)
+		(at 81.28 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d5fb0ec3-f8b2-4cb8-adc8-d26ba9247398")
+		(uuid "c8a61ca7-3c20-4e64-b88e-9b95a1186286")
 	)
 	(junction
 		(at 41.91 74.93)
@@ -4152,16 +4152,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 55.88) (xy 91.44 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ce21c98-1eda-49cd-bac9-0acabeedbfdd")
-	)
-	(wire
-		(pts
 			(xy 167.64 78.74) (xy 168.91 78.74)
 		)
 		(stroke
@@ -4272,16 +4262,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 83.82) (xy 81.28 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5817152a-9277-4c03-8197-2f9b4d73b44e")
-	)
-	(wire
-		(pts
 			(xy 67.31 99.06) (xy 81.28 99.06)
 		)
 		(stroke
@@ -4319,6 +4299,16 @@
 			(type default)
 		)
 		(uuid "5f7cea8f-74a9-45c5-9df3-08cd8d8d013b")
+	)
+	(wire
+		(pts
+			(xy 81.28 55.88) (xy 91.44 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62279b49-7da0-46c1-b26d-5b1b720ece02")
 	)
 	(wire
 		(pts
@@ -4369,6 +4359,26 @@
 			(type default)
 		)
 		(uuid "6a646393-9f24-4738-b708-409ee89682c3")
+	)
+	(wire
+		(pts
+			(xy 81.28 83.82) (xy 91.44 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77e45786-d469-48f8-b57e-f020df3e1258")
+	)
+	(wire
+		(pts
+			(xy 81.28 53.34) (xy 91.44 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ac67841-7dfe-417b-9150-2ca128168037")
 	)
 	(wire
 		(pts
@@ -4662,7 +4672,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 83.82) (xy 91.44 83.82)
+			(xy 52.07 83.82) (xy 81.28 83.82)
 		)
 		(stroke
 			(width 0)
@@ -4762,6 +4772,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 48.26) (xy 91.44 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7040f49-f543-41b1-83f0-3d6969597b19")
+	)
+	(wire
+		(pts
 			(xy 44.45 99.06) (xy 54.61 99.06)
 		)
 		(stroke
@@ -4842,16 +4862,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 48.26) (xy 91.44 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9dae399-fe20-49ae-86bb-c983926641f1")
-	)
-	(wire
-		(pts
 			(xy 71.12 101.6) (xy 81.28 101.6)
 		)
 		(stroke
@@ -4869,16 +4879,6 @@
 			(type default)
 		)
 		(uuid "eb8d2ec5-7df6-41ac-8024-2c58f60eebc1")
-	)
-	(wire
-		(pts
-			(xy 81.28 53.34) (xy 91.44 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eda9cb6d-a1f8-49c1-a7ef-aaacde741364")
 	)
 	(wire
 		(pts
@@ -6771,7 +6771,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x24_Socket")
-		(at 86.36 71.12 0)
+		(at 76.2 73.66 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6779,7 +6779,7 @@
 		(dnp no)
 		(uuid "60bfbbda-70e4-42fd-a736-a689a18f9557")
 		(property "Reference" "J5"
-			(at 91.44 98.552 0)
+			(at 95.758 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6788,7 +6788,7 @@
 			)
 		)
 		(property "Value" "Conn_01x24_Socket"
-			(at 91.44 100.838 0)
+			(at 112.268 42.418 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6797,7 +6797,7 @@
 			)
 		)
 		(property "Footprint" "Connector_FFC-FPC:TE_2-84952-4_1x24-1MP_P1.0mm_Horizontal"
-			(at 86.36 71.12 0)
+			(at 76.2 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6806,7 +6806,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 86.36 71.12 0)
+			(at 76.2 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6815,7 +6815,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x24, script generated"
-			(at 86.36 71.12 0)
+			(at 76.2 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
