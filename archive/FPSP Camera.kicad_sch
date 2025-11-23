@@ -1,0 +1,182 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "b8279e3f-7ea4-46f5-abf2-a9173e16562f")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 25.4 40.64)
+		(size 46.99 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1515f097-b210-49ac-8180-3bf3a13b4fb2")
+		(property "Sheetname" "IOs"
+			(at 25.4 39.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fpc_io.kicad_sch"
+			(at 25.4 46.3046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FPSP Camera"
+				(path "/b8279e3f-7ea4-46f5-abf2-a9173e16562f"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 27.94)
+		(size 46.99 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "172436b5-7623-47a5-a8ea-c5a45f9f12a8")
+		(property "Sheetname" "Power"
+			(at 25.4 27.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fpc_power.kicad_sch"
+			(at 25.4 33.6046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FPSP Camera"
+				(path "/b8279e3f-7ea4-46f5-abf2-a9173e16562f"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 53.34)
+		(size 46.99 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b2a4a92a-4d0c-404e-bdbd-0a3181455e07")
+		(property "Sheetname" "MCU"
+			(at 25.4 52.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fpc_mcu.kicad_sch"
+			(at 25.4 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FPSP Camera"
+				(path "/b8279e3f-7ea4-46f5-abf2-a9173e16562f"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 66.04)
+		(size 46.99 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fe27d215-4a03-48dc-b9d9-ef5c7fd8f22c")
+		(property "Sheetname" "IMU"
+			(at 25.4 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fpc_imu_sch.kicad_sch"
+			(at 25.4 71.7046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FPSP Camera"
+				(path "/b8279e3f-7ea4-46f5-abf2-a9173e16562f"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
