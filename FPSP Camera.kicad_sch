@@ -8962,16 +8962,16 @@
 		(uuid "fd47a7d0-d8c4-491b-9334-fee370897333")
 	)
 	(no_connect
+		(at 104.14 255.27)
+		(uuid "1d615308-da1e-4734-8eed-1c4c6681bb22")
+	)
+	(no_connect
 		(at 57.15 265.43)
 		(uuid "242f6a0d-0daf-4645-86d7-7519e8bfa1d6")
 	)
 	(no_connect
 		(at 76.2 109.22)
 		(uuid "24c8d228-64f3-4913-9bed-1e8f1a2c60a9")
-	)
-	(no_connect
-		(at 104.14 267.97)
-		(uuid "32a4a44e-35e6-4330-a4cd-7f49be3a5544")
 	)
 	(no_connect
 		(at 86.36 127)
@@ -9000,10 +9000,6 @@
 	(no_connect
 		(at 57.15 260.35)
 		(uuid "6d1b1e21-7f24-4295-a954-dbdb8dd239d5")
-	)
-	(no_connect
-		(at 104.14 255.27)
-		(uuid "7124cd50-fc5c-4e0a-b897-ffa39c0ff9e1")
 	)
 	(no_connect
 		(at 112.395 321.31)
@@ -12587,16 +12583,6 @@
 		)
 		(uuid "09508e32-c98f-4727-9a34-1ea214a45164")
 	)
-	(label "GPIO0_1"
-		(at 163.83 86.36 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0af0569c-61af-4678-a737-da733bb3bbf2")
-	)
 	(label "RUN_1"
 		(at 83.82 139.7 0)
 		(effects
@@ -12837,6 +12823,16 @@
 		)
 		(uuid "6cdf2681-d09e-48cd-ae3e-e0277ac8bb61")
 	)
+	(label "POSITION_OUT_1"
+		(at 104.14 267.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6ee0059d-8892-4c5a-8b92-48bf74e10f26")
+	)
 	(label "HREF_OUT"
 		(at 87.63 255.27 180)
 		(effects
@@ -12957,16 +12953,6 @@
 		)
 		(uuid "ae731b7b-6ca9-49ed-a99b-54595a13e73e")
 	)
-	(label "POSITION_OUT_1"
-		(at 87.63 257.81 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "afdd356f-7d2a-45f0-8d87-b313c5e248de")
-	)
 	(label "~{RESET_1}"
 		(at 323.85 139.7 0)
 		(effects
@@ -12996,6 +12982,16 @@
 			(justify left bottom)
 		)
 		(uuid "b5eb1fe2-0180-45c3-9485-6de11924e51d")
+	)
+	(label "FPGA_CTRL"
+		(at 87.63 257.81 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ba4cf857-e00f-4aca-810f-679d471b56b2")
 	)
 	(label "SDA_cam_1"
 		(at 323.85 129.54 0)
@@ -13394,6 +13390,30 @@
 		(uuid "2989ada5-5452-4daf-876d-84f5eea0eb11")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 170.8066 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "POSITION_OUT_1"
+		(shape output)
+		(at 163.83 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2fb5e704-643e-4f65-942d-c6b4ad56a522")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 182.2367 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14077,30 +14097,6 @@
 			)
 		)
 	)
-	(global_label "POSITION_OUT_1"
-		(shape output)
-		(at 160.02 134.62 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c5b3c5ea-dd16-4f20-a0f2-e39d630f1599")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 178.4267 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "VSYNC_1"
 		(shape output)
 		(at 271.78 116.84 0)
@@ -14234,6 +14230,30 @@
 		(uuid "d10fd9c5-58e3-40b1-a671-708d917e72a8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 170.8066 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "FPGA_CTRL"
+		(shape input)
+		(at 160.02 134.62 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d2d5aad3-579b-4682-b98f-13a41fda84af")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.2257 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
