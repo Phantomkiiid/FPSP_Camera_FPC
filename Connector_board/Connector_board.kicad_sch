@@ -2516,6 +2516,16 @@
 		)
 		(uuid "28d7a85f-b0d7-43db-8971-b20559cad498")
 	)
+	(label "USB_D1+"
+		(at 59.69 25.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "28f503c1-c3e9-4c65-b3b6-bd3d9a3f9431")
+	)
 	(label "POSITION_OUT_CLK"
 		(at 48.26 78.74 0)
 		(effects
@@ -2556,16 +2566,6 @@
 		)
 		(uuid "562c6107-f3f0-47e7-9de4-dfb42c3082e9")
 	)
-	(label "SWD_1"
-		(at 59.69 25.4 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5ddf4b10-aed9-445e-a6da-e083af0edbb6")
-	)
 	(label "HREF_OUT"
 		(at 30.48 86.36 180)
 		(effects
@@ -2585,6 +2585,16 @@
 			(justify left bottom)
 		)
 		(uuid "686c6e65-ee73-4ed7-bbd6-9c336c70f39d")
+	)
+	(label "SWD_1"
+		(at 59.69 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6d32fe98-d268-4284-9644-fefe09731323")
 	)
 	(label "SWCLK_1"
 		(at 119.38 30.48 180)
@@ -2616,16 +2626,6 @@
 		)
 		(uuid "71403769-75d7-4519-a634-19cce4a9794b")
 	)
-	(label "USB_D1+"
-		(at 59.69 33.02 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7853f747-aed0-4547-bd89-7b46d90397b3")
-	)
 	(label "IMAGE_OUT_1"
 		(at 30.48 73.66 180)
 		(effects
@@ -2645,6 +2645,16 @@
 			(justify right bottom)
 		)
 		(uuid "7a25febb-495c-4df4-a6eb-d5158099d68f")
+	)
+	(label "USB_D1-"
+		(at 59.69 27.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7bbac09e-03a9-453b-aeac-0fbfb0163119")
 	)
 	(label "USB_D1+"
 		(at 16.51 33.02 0)
@@ -2697,16 +2707,6 @@
 		(uuid "a8b5917b-22ea-41f0-a057-a3eb3010ac55")
 	)
 	(label "SWCLK_1"
-		(at 59.69 27.94 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a905cea0-0fb1-469a-9456-070e7942f21d")
-	)
-	(label "USB_D1-"
 		(at 59.69 30.48 180)
 		(effects
 			(font
@@ -2714,7 +2714,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "ab250fb2-90be-48b0-97a7-1f3fbeb97a87")
+		(uuid "abc437d0-31e7-41ee-97b4-69eb37bb846b")
 	)
 	(label "HREF_OUT"
 		(at 93.98 71.12 180)

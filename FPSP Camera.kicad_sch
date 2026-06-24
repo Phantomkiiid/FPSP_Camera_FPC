@@ -7877,6 +7877,12 @@
 		(uuid "894c4b3d-e48a-443f-a468-974546e718e0")
 	)
 	(junction
+		(at 77.47 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8dd6608d-beb6-4a7e-bf77-157d5875867b")
+	)
+	(junction
 		(at 290.83 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8572,7 +8578,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 139.7) (xy 72.39 139.7)
+			(xy 64.77 139.7) (xy 67.31 139.7)
 		)
 		(stroke
 			(width 0)
@@ -9092,7 +9098,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 139.7) (xy 90.17 139.7)
+			(xy 74.93 139.7) (xy 77.47 139.7)
 		)
 		(stroke
 			(width 0)
@@ -9459,6 +9465,16 @@
 			(type default)
 		)
 		(uuid "6dc507b6-8267-4428-9ab4-9035429dcfb0")
+	)
+	(wire
+		(pts
+			(xy 77.47 139.7) (xy 90.17 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e6d95fa-0901-46b8-882e-76389f0a3861")
 	)
 	(wire
 		(pts
@@ -15366,6 +15382,84 @@
 		)
 	)
 	(symbol
+		(lib_name "GND_2")
+		(lib_id "power:GND")
+		(at 77.47 147.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "075bbaf4-6a3a-4002-b7bc-76e3d497db1d")
+		(property "Reference" "#PWR062"
+			(at 77.47 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 73.66 149.352 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 77.47 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "11be0f8a-1ee9-48f3-b07d-88fc33135f12")
+		)
+		(instances
+			(project "FPSP Camera"
+				(path "/b8279e3f-7ea4-46f5-abf2-a9173e16562f"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 393.7 64.77 0)
 		(unit 1)
@@ -16033,7 +16127,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 76.2 139.7 270)
+		(at 71.12 139.7 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16043,7 +16137,7 @@
 		(dnp no)
 		(uuid "1baf75ce-b576-4e5b-a968-eae4e1150743")
 		(property "Reference" "R15"
-			(at 76.2 137.668 90)
+			(at 71.12 137.668 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16052,8 +16146,8 @@
 				)
 			)
 		)
-		(property "Value" "1k"
-			(at 76.2 139.7 90)
+		(property "Value" "10k"
+			(at 71.12 139.7 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16063,7 +16157,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 76.2 137.922 90)
+			(at 71.12 137.922 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16074,7 +16168,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 139.7 0)
+			(at 71.12 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16085,7 +16179,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 76.2 139.7 0)
+			(at 71.12 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16095,7 +16189,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 76.2 139.7 90)
+			(at 71.12 139.7 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16106,7 +16200,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 76.2 139.7 90)
+			(at 71.12 139.7 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16117,7 +16211,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 76.2 139.7 90)
+			(at 71.12 139.7 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16128,7 +16222,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 76.2 139.7 90)
+			(at 71.12 139.7 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16139,7 +16233,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 76.2 139.7 90)
+			(at 71.12 139.7 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16150,7 +16244,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 76.2 139.7 90)
+			(at 71.12 139.7 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16161,7 +16255,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 76.2 139.7 90)
+			(at 71.12 139.7 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16172,7 +16266,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 76.2 139.7 90)
+			(at 71.12 139.7 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24978,6 +25072,174 @@
 			(project "FPSP Camera"
 				(path "/b8279e3f-7ea4-46f5-abf2-a9173e16562f"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 77.47 143.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a21ff94a-f829-4700-b0ad-8d1ff479a538")
+		(property "Reference" "C33"
+			(at 81.28 142.2399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 81.28 144.526 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 78.4352 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 77.47 143.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Availability" ""
+			(at 77.47 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Check_prices" ""
+			(at 77.47 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 77.47 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 77.47 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 77.47 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 77.47 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" ""
+			(at 77.47 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 77.47 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b17fa926-d290-4dd4-878b-6afe49ce1220")
+		)
+		(pin "2"
+			(uuid "f557f745-0416-4ece-b11f-bbad8694d75a")
+		)
+		(instances
+			(project "FPSP Camera"
+				(path "/b8279e3f-7ea4-46f5-abf2-a9173e16562f"
+					(reference "C33")
 					(unit 1)
 				)
 			)
