@@ -3334,7 +3334,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x06_Top_Bottom")
-		(at 101.6 78.74 0)
+		(at 69.85 30.48 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3342,10 +3343,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5db8c77e-6337-4a81-adb2-ffca199b9b14")
-		(property "Reference" "J5"
-			(at 102.87 67.31 0)
+		(uuid "45808d7d-52cb-4e57-8c88-b04d71d6d674")
+		(property "Reference" "J6"
+			(at 68.58 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3355,7 +3355,7 @@
 			)
 		)
 		(property "Value" "Conn_02x06_Top_Bottom"
-			(at 102.87 69.85 0)
+			(at 68.58 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3365,7 +3365,7 @@
 			)
 		)
 		(property "Footprint" "5035521222:CON_5035521222"
-			(at 101.6 78.74 0)
+			(at 69.85 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3376,7 +3376,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 78.74 0)
+			(at 69.85 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3387,7 +3387,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x06, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 101.6 78.74 0)
+			(at 69.85 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3398,45 +3398,45 @@
 			)
 		)
 		(pin "11"
-			(uuid "1e77fbf6-78f4-4804-b2af-5859fb4e73c3")
+			(uuid "23d60e6c-b528-4eb1-ad08-c009815a48bd")
 		)
 		(pin "12"
-			(uuid "d7c730be-5d02-4cd4-914a-5253d6a9b6b7")
+			(uuid "4a54ad9c-108d-4aa2-8190-876fdd17cde7")
 		)
 		(pin "3"
-			(uuid "d3752b36-6561-4381-b727-49fb2e81e516")
+			(uuid "19d4de81-1655-4e35-ad1f-78e6e26249d2")
 		)
 		(pin "10"
-			(uuid "fe8f1fd6-b908-48bb-a5e7-441184747147")
+			(uuid "5a79f42a-97fe-432c-9d21-014aff20e1d9")
 		)
 		(pin "7"
-			(uuid "496646de-c48e-4c2c-a0b4-ddd6f60faa37")
+			(uuid "a5ce11f6-4332-4cdc-a3a3-40a2ba20f862")
 		)
 		(pin "2"
-			(uuid "a0e96d83-3059-4410-8aee-84c1b06aaf68")
+			(uuid "bdb21380-1ffd-42d4-9d7d-f916fb722c0e")
 		)
 		(pin "9"
-			(uuid "3cc1b7d6-b96c-402c-bfa1-fc50f68ea7e9")
+			(uuid "dd926355-dc99-4bd0-a014-91ca2fe8c679")
 		)
 		(pin "1"
-			(uuid "8feaba16-1a8f-48d2-9a44-2b762165914a")
+			(uuid "a14f4dcb-9988-45db-8ae1-edc5f1d1eaa9")
 		)
 		(pin "4"
-			(uuid "9a7d5532-1369-478b-9199-f3e424b4a988")
+			(uuid "81b994aa-babc-412c-ba35-df125bec2e69")
 		)
 		(pin "5"
-			(uuid "e5f49b6d-2ea7-4fbc-b2cd-22dc9eab64e1")
+			(uuid "1875c4cd-c706-4b75-956d-590fd7f7102b")
 		)
 		(pin "8"
-			(uuid "d0e69bbd-36fb-4dab-ace2-cce758605af4")
+			(uuid "235949a1-5fed-49cb-80ac-67e491ba1727")
 		)
 		(pin "6"
-			(uuid "92c3964d-e423-4fbd-be8c-9d0f622698f0")
+			(uuid "2a18eec2-c16a-4085-90db-4d4baa802ce5")
 		)
 		(instances
 			(project "Connector_board"
 				(path "/d47a3cbb-9124-4e72-898a-608406011dc9"
-					(reference "J5")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -3596,116 +3596,6 @@
 			(project "Connector_board"
 				(path "/d47a3cbb-9124-4e72-898a-608406011dc9"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_02x06_Top_Bottom")
-		(at 67.31 30.48 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7544f08e-e0f5-46fc-8c65-438840033f3c")
-		(property "Reference" "J6"
-			(at 68.58 19.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_02x06_Top_Bottom"
-			(at 68.58 21.59 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "5035521222:CON_5035521222"
-			(at 67.31 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 67.31 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x06, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 67.31 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "11"
-			(uuid "88aada78-f7f8-4487-a290-1469309cca73")
-		)
-		(pin "12"
-			(uuid "3e5f2500-d882-48ab-9059-25bba34ad916")
-		)
-		(pin "3"
-			(uuid "bac41bdc-0f95-41dd-9f8a-a587e13fdcd8")
-		)
-		(pin "10"
-			(uuid "f0fb4ba5-b376-47e9-a523-668f2a4d8d01")
-		)
-		(pin "7"
-			(uuid "d85053f0-6f54-4330-81de-f77cd4f9383f")
-		)
-		(pin "2"
-			(uuid "0d6b7a60-9007-4904-8e0a-14ae00a55f19")
-		)
-		(pin "9"
-			(uuid "d49b383a-7bef-4db0-82c1-c6f62002aead")
-		)
-		(pin "1"
-			(uuid "26de0cb7-1aa9-4f3e-a15f-c94ea377524d")
-		)
-		(pin "4"
-			(uuid "afe3388b-7cf3-4831-a1cf-4af7365da91a")
-		)
-		(pin "5"
-			(uuid "d68d23f9-d9b9-49f7-99a2-7c6b1029d2c4")
-		)
-		(pin "8"
-			(uuid "f83491db-a8cb-400a-b76c-af890883c026")
-		)
-		(pin "6"
-			(uuid "640ec563-cb52-41ba-afc9-03f63b7716e4")
-		)
-		(instances
-			(project "Connector_board"
-				(path "/d47a3cbb-9124-4e72-898a-608406011dc9"
-					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -4115,6 +4005,116 @@
 			(project "Connector_board"
 				(path "/d47a3cbb-9124-4e72-898a-608406011dc9"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x06_Top_Bottom")
+		(at 104.14 78.74 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e33c48cf-f396-4f56-845a-7acdf5fb82b9")
+		(property "Reference" "J5"
+			(at 102.87 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x06_Top_Bottom"
+			(at 102.87 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "5035521222:CON_5035521222"
+			(at 104.14 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x06, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 104.14 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "11"
+			(uuid "123c0263-9eac-4e2d-a905-12ef253cec16")
+		)
+		(pin "12"
+			(uuid "05b16286-1cf0-4484-a426-54315b3eb913")
+		)
+		(pin "3"
+			(uuid "09530dc2-6f91-4c44-940f-efa053b0fd6a")
+		)
+		(pin "10"
+			(uuid "d05841a9-f4ed-4254-be9e-25ed10af56db")
+		)
+		(pin "7"
+			(uuid "7fc16d3c-325d-4fce-81d1-f086238a739d")
+		)
+		(pin "2"
+			(uuid "fe3d0334-051b-4627-a575-71ee94c89023")
+		)
+		(pin "9"
+			(uuid "eae76596-3822-46fe-a08f-7cb76910fed2")
+		)
+		(pin "1"
+			(uuid "5178a478-8125-4b78-80c1-8c9165cd8a89")
+		)
+		(pin "4"
+			(uuid "4308a310-36be-461a-9842-9024ee7f1750")
+		)
+		(pin "5"
+			(uuid "7418a6c4-acbe-4ff8-9398-ac3ca357d6ae")
+		)
+		(pin "8"
+			(uuid "3d5551ed-3214-46ae-aa85-5ceacbfa7320")
+		)
+		(pin "6"
+			(uuid "e86a43b4-4183-4134-98d9-f206ca3c55cb")
+		)
+		(instances
+			(project "Connector_board"
+				(path "/d47a3cbb-9124-4e72-898a-608406011dc9"
+					(reference "J5")
 					(unit 1)
 				)
 			)

@@ -25450,6 +25450,116 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_02x06_Top_Bottom")
+		(at 92.71 260.35 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a8f12d1a-b989-476a-8d42-66ed28b1537e")
+		(property "Reference" "J4"
+			(at 91.44 248.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x06_Top_Bottom"
+			(at 91.44 251.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "5035521222:CON_5035521222"
+			(at 92.71 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x06, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 92.71 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "494d9a29-8725-4b34-9403-eed1c631d167")
+		)
+		(pin "3"
+			(uuid "6aa51227-df43-4376-8803-e43d24da02fe")
+		)
+		(pin "5"
+			(uuid "21af9c65-e889-459e-aa91-e7fc430acd4d")
+		)
+		(pin "10"
+			(uuid "0c0436cb-6c69-442f-a17d-113c54a55bb6")
+		)
+		(pin "9"
+			(uuid "c55e362d-c3b8-46ae-ab2d-8fbd1ca61c7e")
+		)
+		(pin "11"
+			(uuid "1b4d604a-6199-4273-8893-f639b12cb7df")
+		)
+		(pin "6"
+			(uuid "a98555fa-f81b-4837-8da4-044616757bd5")
+		)
+		(pin "7"
+			(uuid "97a34cd1-abfa-40d5-bdd4-2d09da3831f2")
+		)
+		(pin "4"
+			(uuid "ca2e7526-b9d9-4265-96cb-ba7c5376c4cc")
+		)
+		(pin "2"
+			(uuid "b3032da0-06f4-46bc-8416-f9c37214ca5d")
+		)
+		(pin "8"
+			(uuid "d632b52c-fe90-47e6-8633-99abce85af00")
+		)
+		(pin "12"
+			(uuid "f8e51f61-1ef2-46a5-9d76-067960811d49")
+		)
+		(instances
+			(project "FPSP Camera"
+				(path "/b8279e3f-7ea4-46f5-abf2-a9173e16562f"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+1V1")
 		(at 48.26 76.2 0)
 		(unit 1)
@@ -27099,116 +27209,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x06_Top_Bottom")
-		(at 48.26 260.35 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c68f7f73-2242-4cf1-b928-b38f9470bd8d")
-		(property "Reference" "J5"
-			(at 49.53 248.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_02x06_Top_Bottom"
-			(at 49.53 251.46 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "5035481222:CON_5035481222"
-			(at 48.26 260.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 260.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x06, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 48.26 260.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "425f35dc-7d05-4e3c-89f5-1f687823094c")
-		)
-		(pin "3"
-			(uuid "306bc192-b031-4f62-b01a-183b1bf96428")
-		)
-		(pin "5"
-			(uuid "ea9352ed-4dce-4fde-998d-41e06715d34a")
-		)
-		(pin "10"
-			(uuid "c2d8c27b-6908-46f2-9a17-133e7591f911")
-		)
-		(pin "9"
-			(uuid "6f753b27-fc18-4751-918e-550c295ae861")
-		)
-		(pin "11"
-			(uuid "a05026a7-57eb-4536-bf18-7d8f76490993")
-		)
-		(pin "6"
-			(uuid "688fad32-6e65-4d12-aa74-b3807f665d42")
-		)
-		(pin "7"
-			(uuid "94750bb1-6788-423f-a4d1-f74e30ff298d")
-		)
-		(pin "4"
-			(uuid "87b69201-5661-4713-ba9d-bbe27fabbf3a")
-		)
-		(pin "2"
-			(uuid "6d7eb7d8-93aa-4870-aafe-6c2bfe8683f2")
-		)
-		(pin "8"
-			(uuid "90526512-c5a6-4b3d-8786-0d76682d4fe9")
-		)
-		(pin "12"
-			(uuid "9c63d46d-6028-49a1-bcf8-53c86765b7fb")
-		)
-		(instances
-			(project "FPSP Camera"
-				(path "/b8279e3f-7ea4-46f5-abf2-a9173e16562f"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 285.75 67.31 270)
 		(unit 1)
@@ -28580,6 +28580,116 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_02x06_Top_Bottom")
+		(at 50.8 260.35 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dbdc66e6-df47-42d1-982d-1952d7e6bc0b")
+		(property "Reference" "J5"
+			(at 49.53 248.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x06_Top_Bottom"
+			(at 49.53 251.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "5035521222:CON_5035521222"
+			(at 50.8 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x06, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 50.8 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "42bcdec5-7d09-4d96-bfb7-07a8911744dc")
+		)
+		(pin "3"
+			(uuid "9a917566-80e5-4872-8d8f-6ac5207ea217")
+		)
+		(pin "5"
+			(uuid "72317f70-57da-47d3-aa84-3cf2bec60f3b")
+		)
+		(pin "10"
+			(uuid "3dfbfafd-7354-4cf6-a0f8-15bc76c13da0")
+		)
+		(pin "9"
+			(uuid "01935f98-0e94-4d26-a61e-7c012d488787")
+		)
+		(pin "11"
+			(uuid "eb3f1fc7-076e-4853-8a69-6c17c65d501c")
+		)
+		(pin "6"
+			(uuid "de2ea465-3a65-4959-9f8c-83aa0426de91")
+		)
+		(pin "7"
+			(uuid "be2f1056-d1cb-4f23-bd92-515d9e217059")
+		)
+		(pin "4"
+			(uuid "0e381cf6-3aa6-4057-97a5-c8c18c9cda3c")
+		)
+		(pin "2"
+			(uuid "d0c8b98b-c85a-4a49-871f-a406d2fc7b7b")
+		)
+		(pin "8"
+			(uuid "6721c593-3f9e-4692-a593-6de67c11fbb7")
+		)
+		(pin "12"
+			(uuid "4ef0f181-f7aa-4cb9-8b03-a15f58a96f24")
+		)
+		(instances
+			(project "FPSP Camera"
+				(path "/b8279e3f-7ea4-46f5-abf2-a9173e16562f"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+1V5")
 		(at 289.56 123.19 0)
 		(unit 1)
@@ -29731,116 +29841,6 @@
 			(project "FPSP Camera"
 				(path "/b8279e3f-7ea4-46f5-abf2-a9173e16562f"
 					(reference "C23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_02x06_Top_Bottom")
-		(at 90.17 260.35 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f0d6dde8-310a-4b1d-8c00-32f28bad7c07")
-		(property "Reference" "J4"
-			(at 91.44 248.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_02x06_Top_Bottom"
-			(at 91.44 251.46 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "5035481222:CON_5035481222"
-			(at 90.17 260.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 90.17 260.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x06, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 90.17 260.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1b8454ec-7553-45e3-8f08-63a8854ab8be")
-		)
-		(pin "3"
-			(uuid "b1c410e5-89e3-4466-8fe1-c913d5da0e17")
-		)
-		(pin "5"
-			(uuid "3022380e-52d4-42f5-9644-c098896de84d")
-		)
-		(pin "10"
-			(uuid "201072bc-1f20-4f94-b416-990443df3b92")
-		)
-		(pin "9"
-			(uuid "b1cdf6fc-500d-4699-82bc-c67b14f3fc74")
-		)
-		(pin "11"
-			(uuid "57c21c77-3ec5-450d-b059-2dff5a5ea668")
-		)
-		(pin "6"
-			(uuid "6c9f51dc-b039-444c-8d41-111169f83733")
-		)
-		(pin "7"
-			(uuid "ff58ec28-875d-4b2a-97a4-add13604caaf")
-		)
-		(pin "4"
-			(uuid "bb8786c9-7509-47f2-980c-423c7f82d051")
-		)
-		(pin "2"
-			(uuid "c398cac7-f6d3-46a8-b23e-38337ee301ef")
-		)
-		(pin "8"
-			(uuid "c8e5c455-b80c-4e7a-908b-71101d298b8b")
-		)
-		(pin "12"
-			(uuid "65e4913f-9d87-425e-b4df-2d805459c8d4")
-		)
-		(instances
-			(project "FPSP Camera"
-				(path "/b8279e3f-7ea4-46f5-abf2-a9173e16562f"
-					(reference "J4")
 					(unit 1)
 				)
 			)
