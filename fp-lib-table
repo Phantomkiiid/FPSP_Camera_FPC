@@ -4,4 +4,6 @@
 	(lib (name "rpi-lib-kicad-rp235x") (type "KiCad") (uri "${KIPRJMOD}/custom_fp/RPI/rpi-lib-kicad-rp235x.pretty") (options "") (descr ""))
 	(lib (name "52435-2471") (type "KiCad") (uri "${KIPRJMOD}/custom_fp/52435-2471") (options "") (descr ""))
 	(lib (name "PTS526_SM15_SMTR2_LFS") (type "KiCad") (uri "${KIPRJMOD}/custom_fp/PTS526_SM15_SMTR2_LFS") (options "") (descr ""))
+	(lib (name "5035481222") (type "KiCad") (uri "${KIPRJMOD}/custom_fp/5035481222") (options "") (descr ""))
+	(lib (name "5035521222") (type "KiCad") (uri "${KIPRJMOD}/custom_fp/5035521222") (options "") (descr ""))
 )
